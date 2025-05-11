@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font: inherit;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/************************/
+/**** Header Section ****/
+/************************/
+
+.header {
+    background-color: #1f2937;
+    padding: 18px 8px 128px 8px;
+}
+
+.header-container {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.header__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 120px;
+}
+
+.header__top-logo {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 700;
+}
+
+.header__top-menu {
+    list-style-type: none;
+    display: flex;
+    gap: 24px;
+}
+
+.header__top-menu a {
+    font-size: 18px;
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
+.header__hero {
+    display: flex;
+    gap: 60px;
+}
+
+.header__hero-cta {
+    width: 100%;
+}
+
+.header__hero h2 {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.header__hero p {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-bottom: 15px;
+}
+
+.btn-cta {
+    background-color: #3882f6;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    padding: 8px 32px;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+/************************/
+/***** Info Section *****/
+/************************/
+
+.info {
+    background-color: #fff;
+    padding: 44px 8px 128px 8px;
+}
+
+.info-container {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.info h3 {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    margin-bottom: 44px;
+}
+
+.info__images {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.info__images-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 200px;
+    gap: 8px;
+    margin-bottom: 12px;
+}
+
+.info__images-box-img {
+    width: 170px;
+    height: 170px;
+    border: 4px solid #3882f6;
+    border-radius: 16px;
+}
+
+.info__images-box-text {
+    font-size: 18px;
+    color: #1f2937;
+    padding: 0 15px;
+}
+
+/********************************/
+/***** Testimonials Section *****/
+/********************************/
+
+.testimonials {
+    background-color: #e5e7eb;
+    padding: 128px 0;
+}
+
+.testimonials p {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1f2937;
+}
+
+.testimonials-container {
+    max-width: 790px;
+    margin: 0 auto;
+}
+
+.author {
+    display: flex;
+    justify-content: flex-end;
+    color: #1f2937;
+    font-weight: bold;
+    font-size: 24px;
+    margin-right: 38px;
+}
+
+/*************************/
+/****** CTA Section ******/
+/*************************/
+
+.cta {
+    background-color: #fff;
+    padding: 104px 0;
+}
+
+.cta-container {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.cta__signup {
+    display: flex;
+    padding: 48px 128px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882f6;
+    border-radius: 8px;
+    color: #fff;
+}
+.cta__signup-text p {
+    font-weight: 300;
+}
+
+.cta__signup-text h4{
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 6px;
+}
+
+.border {
+    border: 2px solid #fff;
+}
+
+/**************************/
+/***** Footer Section *****/
+/**************************/
+
+.footer {
+    background-color: #1f2937;
+    color: #fff;
+    padding: 44px 0;
+    text-align: center;
+    font-size: 18px;
+    word-spacing: 3px;
+}
